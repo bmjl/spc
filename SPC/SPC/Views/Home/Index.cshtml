@@ -31,8 +31,9 @@
 	  </tr>
 	  <tr>
 	  <td>中心限CL</td>
-	  <td>0.70<td>
+	  <td>0.70</td>
 	  <td>總組數</td>
+	  <td>中心限CL</td>
 	  <td>0.72</td>
 	  <td>0.18</td>
 
@@ -57,7 +58,7 @@
 		</div>
 <div id="tableOne" class="panel-collapse collapse in" aria-expanded="true">
 			<div class="panel-body">
-<table  class="table table-bordered">
+<table id="parameter"  class="table table-bordered">
  <thead>
       <tr>
          <th>序号</th>
@@ -70,10 +71,28 @@
 		   <th>Ｘ</th>
 		   <th>R</th>
       </tr>
-	   </thead>
+</thead>
+	   <tr id='par' class="max_width">
+	   <td>1</td>
+	   <td><input  type="text"></td>
+	   <td><input type="text"></td>
+	   <td><input type="text"></td>
+	   <td><input type="text"></td>
+	   <td><input type="text"></td>
+	   <td></td>
+	   <td></td>
+	   <td></td>
+	   </tr>
 
 </table>
 </div>
 </div>
+<canvas id="canvasX" width="900" height="180" style="display:block;border:1px solid #aaa;margin:10px auto;">
+        如果浏览器不能正常显示，请更换支持canvas的浏览器
+    </canvas>
+<canvas id="canvasR" width="900" height="300" style="display:block;border:1px solid #aaa;margin:10px auto;">
+        如果浏览器不能正常显示，请更换支持canvas的浏览器
+    </canvas>
+
 </div>
 @Scripts.Render("~/bundles/x-r")
