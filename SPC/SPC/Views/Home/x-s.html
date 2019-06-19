@@ -3,7 +3,7 @@
 <head>
     <title>SPC</title>
     <link rel="stylesheet" type="text/css" href="../../Content/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../Content/x-r/x-r.css">
+    <link rel="stylesheet" type="text/css" href="../../Content/x-s/x-s.css">
     <link rel="stylesheet" type="text/css" href="../../Content/Site.css">
 </head>
 
@@ -18,7 +18,7 @@
 
     <div>
         <div class="text-center">
-            <h4>X — R 管 制 圖</h4>
+            <h4>X — S 管 制 圖</h4>
         </div>
         <table class="table table-bordered " style="margin:10px auto;">
             <caption>日期：<text>2019-06-18</text></caption>
@@ -29,33 +29,33 @@
                     <th>群組數大小</th>
                     <th>管 制</th>
                     <th>X 圖</th>
-                    <th>R 圖</th>
+                    <th>S 圖</th>
                 </tr>
             </thead>
             <tr>
                 <td>上限 USL</td>
-                <td>0.90</td>
+                <td>46.050</td>
                 <td>5</td>
                 <td>上限 UCL</td>
-                <td>0.82</td>
-                <td>0.38</td>
+                <td>18.633</td>
+                <td>5.469</td>
 
             </tr>
             <tr>
                 <td>中心限CL</td>
-                <td>0.70</td>
+                <td>45.650</td>
                 <td>總組數</td>
                 <td>中心限CL</td>
-                <td>0.72</td>
-                <td>0.18</td>
+                <td>15.093</td>
+                <td>2.476</td>
 
             </tr>
             <tr>
                 <td>下限 USL</td>
-                <td>0.50</td>
+                <td>45.250</td>
                 <td>25</td>
                 <td>下限 UCL</td>
-                <td>0.61</td>
+                <td>11.553</td>
                 <td>0.00</td>
 
             </tr>
@@ -71,8 +71,8 @@
         <div id="tableOne" class="panel-collapse collapse in" aria-expanded="true">
             <div class="panel-body">
                 <table id="parameter" class="table table-bordered" style="margin:10px auto;">
-                    <thead>
-                        <tr>
+                    <thead id='_thead'>
+                        <tr id='_head'>
                             <th>序号</th>
                             <th>1</th>
                             <th>2</th>
@@ -81,7 +81,7 @@
                             <th>5</th>
                             <th>ΣＸ</th>
                             <th>Ｘ</th>
-                            <th>R</th>
+                            <th>S</th>
                         </tr>
                     </thead>
                     <tr id='par' class="max_width">
@@ -102,13 +102,13 @@
         <div class="text-center">
             <h4>X 管 制 圖</h4>
         </div>
-        <canvas id="canvasX" width="900" height="180" style="display:block;border:1px solid #aaa;margin:10px auto;">
+        <canvas id="canvasX" width="1200" height="360" style="display:block;border:1px solid #aaa;margin:10px auto;">
         如果浏览器不能正常显示，请更换支持canvas的浏览器
 	</canvas>
         <div class="text-center">
             <h4>S 管 制 圖</h4>
         </div>
-        <canvas id="canvasR" width="900" height="180" style="display:block;border:1px solid #aaa;margin:10px auto;">
+        <canvas id="canvasR" width="1200" height="360" style="display:block;border:1px solid #aaa;margin:10px auto;">
         如果浏览器不能正常显示，请更换支持canvas的浏览器
     </canvas>
 
@@ -117,8 +117,8 @@
 
     <script src="../../Scripts/jquery-3.3.1.min.js"></script>
     <script src="../../Scripts/bootstrap.min.js"></script>
-    <script src="../../Scripts/x-r/x-r.js"></script>
-    <script src="../../Scripts/x-r/canvas.js"></script>
+    <script src="../../Scripts/x-s/x-s.js"></script>
+    <script src="../../Scripts/x-s/canvas.js"></script>
 
 
 
